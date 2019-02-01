@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Instrucciones: 
+
+1. Ingrese el número complejos respetando las posiciones de la parte real e imaginaria.
+2. Seleccione la raiz enésima que desea calcular del número.
+3. En caso de requerir raíces superiores a 10, seleccione otro.
+4. Presione "Calcular", y los datos aparecerán en la parte inferior.
+5. Además de calcular, podrás obtener las instrucciones para llegar a los resultados.
+6. En la parte derecha, la graficadora mostrará las enésimas raíces del complejo.
+7. Puedes usar los botones de control para manipular las gráficas.
+8. Al final del trabajo, tienes la opción de exportar a GeoGebra o a un archivo de Texto.
+9. Para comenzar de nuevo, puedes Vaciar la gráfica y Borrar los datos de ingreso.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzPMFjMzzGgzM8ysMzPM1jMzzN4zM8zeMzPM3jMz
+        zN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMz
+        zN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMz
+        zN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMzzN4zM8zeMzPM3jMzzNYzM8ysMzPMaDMzzBQAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8wUMzPMlDMzzPYzM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z2MzPMlDMzzBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8xCMzPM5jMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zoMzPMRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAzM8xSMzPM+DMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzPozM8xWAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAzM8w8MzPM+DMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM+DMzzEAAAAAAAAAAAAAAAAAzM8wOMzPM4DMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8ziMzPMEAAAAAAAAAAAMzPMgjMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzIgAAAAAMzPMCDMz
+        zOwzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8zwMzPMDDMzzFAzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzFYzM8ySMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8yYMzPMujMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPMvDMz
+        zMIzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzPAzM8y6MzPMtDMzzLIzM8yyMzPMtDMzzMAzM8z8MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzMQzM8zIMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8x4AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMzPMwDMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zMMzPMyjMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z4MzPMGAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzG4zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPMzjMzzM4zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPMqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8weMzPM/DMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zNIzM8zSMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMz
+        zMozM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8zWMzPM1DMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzNgzM8wCAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAzM8x4MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM2DMzzNYzM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8x0AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzPMKDMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzNozM8zWMzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z2MzPMFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8zUMzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8zaMzPM2jMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPMpgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMzPMhDMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM3jMzzNozM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzDQzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzN4zM8zaMzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzNgzM8wCAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAzM8wCAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8wCMzPM4DMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zeMzPM3jMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8x0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzPMegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMz
+        zJIzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM3jMzzN4zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z2MzPMFgAAAAAAAAAAAAAAAAAAAAAAAAAAMzPMMjMzzPYzM8wSAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAzM8xAMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzN4zM8zeMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPMpgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMz
+        zJwzM8z/MzPMXAAAAAAAAAAAAAAAAAAAAAAAAAAAMzPMBDMzzOozM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zeMzPM3jMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzEIAAAAAAAAAAAAA
+        AAAAAAAAAAAAADMzzBIzM8zyMzPM/zMzzK4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8yeMzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM3jMz
+        zN4zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zNgzM8wCAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8xuMzPM/zMzzP8zM8zyMzPMCgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMzPMTjMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzN4zM8zeMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8x0AAAAAAAAAAAAAAAAAAAAAAAAAAAzM8wCMzPM1DMzzP8zM8z/MzPM/zMz
+        zFAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzAozM8z0MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zeMzPM3jMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z2MzPMFgAAAAAAAAAAAAAAAAAAAAAAAAAAMzPMPjMz
+        zP8zM8z/MzPM/zMzzP8zM8ygAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzPMrDMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM3jMzzN4zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPMpgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADMzzKQzM8z/MzPM/zMzzP8zM8z/MzPM6jMzzAQAAAAAAAAAAAAAAAAAAAAAAAAAADMz
+        zFwzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zN4zM8zeMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zEAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzBQzM8z0MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8xCAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAzM8wSMzPM+DMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8zeMzPM3jMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM9jMzzFozM8xEMzPMPjMz
+        zDozM8w4MzPMNDMzzDAzM8wCAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8xwMzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPMkgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzLozM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM3jMzzN4zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zN4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8wCMzPM1jMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzOAzM8wCAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8xsMzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzN4zM8zeMzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8zaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMzPMQDMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPMMgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMzPMHjMzzPwzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8zeMzPM3jMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzKozM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8zKMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM3jMzzN4zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzNwAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzBozM8z4MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8zQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzPMejMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzN4zM8zeMzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8zkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8x+MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzCQAAAAAAAAAAAAAAAAAAAAAAAAAADMz
+        zCozM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zeMzPM3jMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/DMzzLwzM8yqMzPMpjMzzKQzM8ykMzPMpDMzzKQzM8ykMzPMpDMz
+        zKgzM8ywMzPM8jMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8xyAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMzPM2DMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM3jMzzN4zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzIozM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzN4zM8zeMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzPozM8wWAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8w6MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zeMzPM3jMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPMYgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMzPMBDMzzOYzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM3jMz
+        zNwzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zLIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8yaMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzN4zM8zaMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z2MzPMDAAAAAAAAAAAAAAAAAAAAAAAAAAAMzPMTDMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zeMzPM2jMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzFQAAAAAAAAAAAAAAAAAAAAAAAAAADMz
+        zAozM8zyMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM3jMzzNozM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8ykAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMzPMrDMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zN4zM8zWMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM7jMzzAYAAAAAAAAAAAAAAAAAAAAAAAAAADMzzF4zM8zwMzPM8DMzzPAzM8zwMzPM8DMz
+        zPAzM8zwMzPM8DMzzPAzM8zwMzPM8DMzzPAzM8zwMzPM8jMzzPIzM8zyMzPM9jMzzPwzM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8zaMzPM1jMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8xGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzAIzM8wCMzPMBDMz
+        zAYzM8wUMzPM6jMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM2jMzzNQzM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPMlgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzNgzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzNgzM8zQMzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zOYzM8wCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzM8zYMzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8zUMzPMzjMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPMPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzPM2DMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM0jMzzMozM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzI4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADMzzNozM8z/MzPM/zMzzP8zM8z/MzPM/zMzzM4zM8zGMzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zgMzPMEDMz
+        zAgzM8wGMzPMAjMzzAIzM8wCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADMzzAIzM8wEMzPMBjMzzA4zM8zqMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8zKMzPMwDMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzPwzM8z4MzPM9jMzzPQzM8z0MzPM9DMzzPIzM8zyMzPM8jMzzPIzM8zyMzPM8jMz
+        zPIzM8zyMzPM8jMzzPIzM8zyMzPM8jMzzPIzM8z0MzPM9DMzzPYzM8z6MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPMxDMzzLQzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzLgzM8yIMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8yGMzPMQDMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPMPjMz
+        zAIzM8zaMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM3jMzzAIAAAAAMzPMXDMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzGYAAAAAAAAAADMzzAIzM8y+MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzMgzM8wEAAAAAAAAAAAAAAAAMzPMGjMz
+        zOIzM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzOYzM8wgAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAzM8woMzPM4DMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zOIzM8wqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzBgzM8y0MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzLgzM8wYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMz
+        zE4zM8zGMzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMzzP8zM8z/MzPM/zMz
+        zP8zM8z/MzPM/zMzzP8zM8z/MzPM0DMzzFYzM8wCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzzCgzM8xuMzPMmjMzzKQzM8yqMzPMrDMzzK4zM8yyMzPMsjMz
+        zLQzM8y2MzPMtjMzzLYzM8y4MzPMujMzzLozM8y6MzPMujMzzLozM8y6MzPMujMzzL4zM8y+MzPMvjMz
+        zL4zM8y+MzPMvjMzzL4zM8y+MzPMvjMzzL4zM8y+MzPMvjMzzL4zM8y+MzPMvjMzzL4zM8y6MzPMujMz
+        zLozM8y2MzPMtjMzzLIzM8yuMzPMpDMzzJQzM8x0MzPMMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/4AAAAAAAf/8AAAAAAAAP/gAAAAAAAAf8AAAAAAAAA/gAAAAAAAAB8AAAAAAAAADgAAAAAAA
+        AAGAAAAAAAAAAYAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH8AAAAAAAAAf4AAAAAAAA
+        B/gAAAAAAAAP+AAAAAAAAA/8AAAAAAAAH/wAAAAAAAAf/AAAAAAAAB/8AAAAAAAAP/4AAAAAAAA//gAA
+        AAAAAH/+AAAAAAAAf38AAAAAAAB+fwAAAAAAAP4/AAAAAAAA/j+AAAAAAAH8P4AAAAAAAfwfgAAAAAAB
+        +B/AAAAAAAP4H8AAAAAB//gPwAAAAAH/8A/gAAAAAf/wD+AAAAAB/+AH4AAAAAH/4AfwAAAAAf/gB/AA
+        AAAAAAAH8AAAAAAAAAPwAAAAAAAAA/gAAAAAAAAD+AAAAAAAAAH4AAAAAAAAAfwAAAAAAAAB/AAAAAAA
+        AAD8AAAAAAAAAP4AAAAAAAAA////gAAAAAB///+AAAAAAH///4AAAAAAf///gAAAAAA///+AAAAAAD//
+        /4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAPAAAAAAAAAA+AA
+        AAAAAAAH8AAAAAAAAA/4AAAAAAAAH/4AAAAAAAB//8AAAAAAA/8=
+</value>
+  </data>
+</root>
